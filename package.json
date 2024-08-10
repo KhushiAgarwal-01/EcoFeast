@@ -1,0 +1,18 @@
+{
+  "name": "ecofeast",
+  "version": "1.0.0",
+  "description": "Develop a sustainable solution leveraging technology to reduce food wastage and ensure efficient distribution, ultimately contributing to the goal of achieving zero hunger.",
+  "main": "index.js",
+  "type":"module",
+  "scripts": {
+    "start": "node backend/index.js",
+    "dev": "node --watch backend/index.js",
+    "build": "npm install && npm install --prefix client  &&  npm run build --prefix client"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
